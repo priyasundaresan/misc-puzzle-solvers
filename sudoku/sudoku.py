@@ -82,7 +82,7 @@ parser.add_argument('-t', '--test', type=int, metavar='', help='enter a test cas
 parser.add_argument('-c', '--cases', action='store_true', help='print all test cases')
 args = parser.parse_args()
 
-""" Gets a puzzle from user, parses and orders cipherwords, and solves puzzle."""
+""" Gets a puzzle from user and solves puzzle."""
 if __name__ == '__main__':
     if args.cases:
         pprint.pprint(testsCache) # Prints the suite of test cases
